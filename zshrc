@@ -86,7 +86,8 @@ elif [[ $(uname) == 'Darwin' ]]; then
 fi
 
 PATH=$HOME/Library/Haskell/bin:$PATH # Add GHC path to PATH for scripting
-PATH=$HOME/.cabal/bin:$PATH          # Add Cabal path to PATH for scripting
+PATH=$HOME/.cabal/bin:$PATH          # Add Cabal path to PATH for ndkey "^P"scripting
+bindkey "^P" up-line-or-search
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
